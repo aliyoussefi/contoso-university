@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>devops_sqlimplicitapp_575ab</Name>
+  <AppVersion>2022-03-30T19:22:02Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.22022.31.0</CreatedByClientVersion>
+  <MinClientVersion>3.22022.31.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"d6467684-c495-4863-a002-6f96def9db03","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.22022.31","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>SQL Implicit App</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"83d4e73c-4f62-401d-9c07-7536065a63c7":{"id":"/providers/microsoft.powerapps/apis/shared_sql","xrmConnectionReferenceLogicalName":"devops_SqlConnectionSQL","displayName":"SQL Server","iconUri":"https://connectoricons-prod.azureedge.net/laborbol/patches/1520/sql-mi/1.0.1520.2576/sql/icon.png","dataSources":["SalesLT.Customer"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"sharedConnectionId":"fe617b44-4a84-497c-b589-251320cada39","dataSets":{"holidayinnpoc.database.windows.net,holidayinnpocdb":{"dataSources":{"SalesLT.Customer":{"tableName":"[SalesLT].[Customer]"}}}},"apiTier":"Premium","actions":["providers/PowerPlatform.Governance/Operations/Read"],"endpoints":["holidayinnpoc.database.windows.net,holidayinnpocdb"],"authenticationType":"sqlAuthentication"}}</ConnectionReferences>
+  <DatabaseReferences>{}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"devops_SqlConnectionSQL","componenttype":10134,"componenttypeplatformname":"ConnectionReference"}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/devops_sqlimplicitapp_575ab_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/devops_sqlimplicitapp_575ab_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

@@ -1,0 +1,15 @@
+{
+  "EnvironmentVariables": [
+    {
+      "SchemaName": "devops_SqlConnectionString",
+      "Value": "holidayinnpoc.database.windows.net"
+    }
+  ],
+  "ConnectionReferences": [
+    {
+      "LogicalName": "devops_SqlConnectionSQL",
+      "ConnectionId": "a288a4cf0a4a47ac934c920aae65ca71",
+      "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_sql"
+    }
+  ]
+}

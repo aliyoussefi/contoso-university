@@ -1,0 +1,15 @@
+{
+  "EnvironmentVariables": [
+    {
+      "SchemaName": "devops_EnvironmentVariable01",
+      "Value": "Test"
+    }
+  ],
+  "ConnectionReferences": [
+    {
+      "LogicalName": "devops_alyoussedevopsconnref",
+      "ConnectionId": "b5d8b711f5bc4edbab1a43dc20bd3f97",
+      "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_visualstudioteamservices"
+    }
+  ]
+}

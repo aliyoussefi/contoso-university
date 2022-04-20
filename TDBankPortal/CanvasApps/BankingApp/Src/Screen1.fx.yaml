@@ -1,0 +1,112 @@
+Screen1 As screen:
+
+    "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        BorderThickness: =10
+        Items: =Accounts
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =Min(160, Self.Height - 60)
+        ZIndex: =1
+
+        Image1 As image:
+            Height: =128
+            Image: =ThisItem.'Default Image'
+            OnSelect: =Select(Parent)
+            Width: =128
+            X: =16
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        Title1 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.'Account Name'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - Image1.Width - 104
+            X: =Image1.X + Image1.Width + 24
+            Y: =44
+            ZIndex: =2
+
+        Subtitle1 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.'Main Phone'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title1.Width
+            X: =Title1.X
+            Y: =Title1.Y + Title1.Height + 4
+            ZIndex: =3
+
+        NextArrow1 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="View item details"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator1 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =5
+
+    TextInput1 As text:
+        Default: ="Name"
+        X: =728
+        Y: =40
+        ZIndex: =2
+
+    TextInput1_1 As text:
+        Default: ="Account Number"
+        X: =728
+        Y: =111
+        ZIndex: =3
+
+    TextInput1_2 As text:
+        Default: ="Balance"
+        X: =728
+        Y: =182
+        ZIndex: =4
+
+    TextInput1_3 As text:
+        Default: ="DOB"
+        X: =728
+        Y: =247
+        ZIndex: =5
+
+    Button1 As button:
+        Text: ="Link Account"
+        X: =1108
+        Y: =132
+        ZIndex: =6
+
+    Button1_1 As button:
+        Text: ="Add Monies"
+        X: =1108
+        Y: =189
+        ZIndex: =7
+
+    Button1_2 As button:
+        Text: ="Check Balance"
+        X: =1108
+        Y: =247
+        ZIndex: =8
+
